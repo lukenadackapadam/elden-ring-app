@@ -1,0 +1,19 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  image: MyString
+  region: MyString
+  description: MyString
+  location: MyString
+  drops: MyString
+  healthPoints: MyString
+
+two:
+  name: MyString
+  image: MyString
+  region: MyString
+  description: MyString
+  location: MyString
+  drops: MyString
+  healthPoints: MyString

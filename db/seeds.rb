@@ -1,7 +1,22 @@
-# This file should contain all the record creation needed to seed the database with its default values.
-# The data can then be loaded with the bin/rails db:seed command (or created alongside the database with db:setup).
-#
-# Examples:
-#
-#   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
-#   Character.create(name: "Luke", movie: movies.first)
+# require "rest-client"
+# require "json"
+
+# def bosses
+#   response = RestClient.get("https://eldenring.fanapis.com/api/bosses?limit=1000&page=1")
+
+#   json = JSON.parse(response)["data"]
+
+#   json.each do |b|
+#     Boss.create!(
+#       name: b["name"],
+#       image: b["image"],
+#       region: b["region"],
+#       description: b["description"],
+#       location: b["location"],
+#       drops: b["drops"],
+#       healthPoints: b["healthPoints"],
+#     )
+#   end
+# end
+
+# bosses()
