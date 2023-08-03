@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@700&display=swap');
+
+body {
+  background-color: rgb(37, 112, 83);
+  font-family: 'Cormorant Garamond', serif;
+}
+
+h1 {
+  text-align: center;
+  color: rgb(225, 217, 58);
+  font-size: 80px;
+  margin: 15px;
+}
+
+h2 {
+  text-align: center;
+  color: rgb(185, 126, 54);
+  font-size: 40px;
+  font-style: italic;
+}
+
+p {
+  text-align: center;
+  color: rgb(225, 217, 58);
+  font-size: 20px;
+}
+
+form {
+  text-align: center;
+}
+
+#info_heading {
+  text-decoration: underline;
+  margin: 15px;
+}
+
+.boss_info {
+  color: rgb(200, 200, 200);
+}
+
+#image-center {
+  display: block;
+  width: 400px;
+  height: auto;
+  margin: auto;
+}

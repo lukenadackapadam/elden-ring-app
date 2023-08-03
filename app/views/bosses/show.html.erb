@@ -1,8 +1,7 @@
-<h1>Boss Info</h1>
-
 <h2><%= @bosses.name %></h2>
-<p>Description: <%= @bosses.description %></p>
-<p>HP: <%= @bosses.healthPoints %></p>
-<p>Region: <%= @bosses.region %></p>
-<p>Location: <%= @bosses.location %></p>
-<p>Drops: <%= @bosses.drops %></p>
+<p class="boss_info">Description: <%= @bosses.description %></p>
+<p class="boss_info">HP: <%= @bosses.healthPoints %></p>
+<p class="boss_info">Region: <%= @bosses.region %></p>
+<p class="boss_info">Location: <%= @bosses.location %></p>
+<p class="boss_info">Drops: <%= @bosses.drops %></p>
+<img src="<%= @bosses.image%>" alt="Boss img" id="image-center"/>
