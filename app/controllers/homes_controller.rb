@@ -6,9 +6,9 @@ class HomesController < ApplicationController
     render :index
   end
 
-  def call
-    url = "https://eldenring.fanapis.com/api/bosses?name=Fire%20Giant"
-    response = RestClient.get(url)
-    render json: response
-  end
+  # def call
+  #   url = "https://eldenring.fanapis.com/api/bosses?name=Fire%20Giant"
+  #   response = RestClient.get(url)
+  #   render json: response
+  # end
 end
