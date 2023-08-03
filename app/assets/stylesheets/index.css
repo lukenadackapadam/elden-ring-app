@@ -44,3 +44,9 @@ form {
   height: auto;
   margin: auto;
 }
+
+.index-link {
+  color: rgb(225, 217, 58);
+  font-size: 25px;
+  padding: 10px
+}

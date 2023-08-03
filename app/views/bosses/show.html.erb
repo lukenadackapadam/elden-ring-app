@@ -5,3 +5,6 @@
 <p class="boss_info">Location: <%= @bosses.location %></p>
 <p class="boss_info">Drops: <%= @bosses.drops %></p>
 <img src="<%= @bosses.image%>" alt="Boss img" id="image-center"/>
+
+
+<%= link_to "Search again!", request.referer.present? ? request.referer : default_path, class: "index-link" %>
